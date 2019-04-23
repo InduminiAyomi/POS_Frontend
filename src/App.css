@@ -1,0 +1,48 @@
+
+.login-page {
+  background-image: url(../src/image.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-form {
+  width: 400px;
+  margin: 0 auto;
+  font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+.login-form img {
+  width: 240px;
+  height: 200px;
+  left: 50%;
+  margin-left: 85px;
+}
+
+.login-form input[type="password"],
+.login-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  margin-bottom: 15px;
+  box-sizing:border-box;
+}
+.login-form input[type="submit"] {
+  width: 50%;
+  padding: 15px;
+  background-color: #422600;
+  border: 0;
+  border-radius: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  left: 50%;
+  margin-left: 85px;
+}
+
+.all-items tr{
+  cursor:pointer;
+}
